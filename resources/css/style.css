@@ -51,14 +51,14 @@ nav span {
   flex-direction: column;
   text-align: center;
   padding-top: 70px;
-  justify-content: center;
+  align-content: center;
 }
 
 .mission {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   background-repeat: no-repeat;
   position: relative;
-  padding-top: 69px;
+  padding-top: 70px;
   width: 1200px;
   height: 700px;
   display: flex;
@@ -66,7 +66,7 @@ nav span {
   flex-grow: 1;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  margin: 0 auto;
 }
 
 .missiontext {
@@ -76,6 +76,7 @@ nav span {
 
 .teaofthemonth {
   width: 1000px;
+  margin: 0 auto;
 }
 
 .teatypes {
@@ -86,11 +87,18 @@ nav span {
   justify-content: center;
 }
 
+.type {
+  padding: 5px;
+}
+
 .type img {
   height: 200px;
   width: 300px;
+  display: block;
+  margin: 10px;
 }
 
-.type h4 {
+.type span {
+  font-size: 22px;
   padding-top: 10px;
 }
